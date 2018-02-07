@@ -1,4 +1,4 @@
-package com.ev.jonathan.emprendeelvieajeev;
+﻿package com.ev.jonathan.emprendeelvieajeev;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -76,7 +76,7 @@ public class Login extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Toast.makeText(Login.this, "Ocurrio un error, conprueba tu conexion a internet", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Login.this, "Ocurrio un nmmmmconprueba tu conexion a internet", Toast.LENGTH_SHORT).show();
             }
         });
         VolleyRP.addToQueue(solicitud, mRequest, this, volley);
