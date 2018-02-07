@@ -85,7 +85,7 @@ public class Login extends AppCompatActivity {
     public void verificarDatosLogin(JSONObject datosSolicitud) {
         try {
             String resultado = datosSolicitud.getString("resultado");
-            if (resultado.equals("CC")) {
+            if (resultado.equals("cc")) {
                 JSONObject datosLogin = new JSONObject(datosSolicitud.getString("datos"));
                 String correo = datosLogin.getString("correo");
                 String password = datosLogin.getString("password");
